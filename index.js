@@ -8,15 +8,15 @@ var questions=[
     answer:"aatif"
   },
   {
-    question:"i am male or female?",
+    question:"i am male or female? ",
     answer:"male"
   },
   {
-    question:"inwhich city do i live ?",
+    question:"inwhich city do i live ? ",
     answer:"ghaziabad"
   },
   {
-    question:"inwhich field i am expert in?",
+    question:"inwhich field i am expert in? ",
     answer:"drawing"
   },
   {
@@ -28,9 +28,9 @@ var questions=[
     answer:"cricket"
   },
   {
-    question:"which grade i got in my 12th standard? ",
+    question:"which grade i got in my 12th standard?   ",
     answer:"b"
-  }
+  },
   {
     question:"inwhich subject i was failed during my 12th standard? ",
     answer:"physics"
@@ -41,7 +41,7 @@ function play(question,answer)
   var userAnswer=readlineSync.question(question);
   if (userAnswer===answer)
   {  
-  console.log("awesome! You know me in this");
+  console.log("awesome! You know me in this.");
   score=score+1;
   console.log("Your score is "+score);
   }
