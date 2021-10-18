@@ -31,6 +31,10 @@ var questions=[
     question:"which grade i got in my 12th standard? ",
     answer:"b"
   }
+  {
+    question:"inwhich subject i was failed during my 12th standard? ",
+    answer:"physics"
+  }
 ];
 function play(question,answer)
 {
